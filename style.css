@@ -53,6 +53,11 @@ h3 {
   font-size: 12px;
   font-family: 'Assistant', sans-serif;
 }
+
+blockquote {
+  font-size: 18px;
+  text-align: center;
+}
 /** Caption styles */
 .caption,
 figcaption {
@@ -148,7 +153,7 @@ figcaption {
   width: 100%;
   padding: 10px 22px;
   min-height: 50px;
-  max-width: 400px;
+  max-width: 425px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -164,6 +169,15 @@ figcaption {
 
 .slide {
   position: relative;
+}
+
+.slide.white {
+  background-color: #fff;
+}
+
+.slide.white .container {
+  background-color: transparent;
+  color: #000;
 }
 
 .slide .container {
@@ -191,9 +205,7 @@ figcaption {
     display: none;
   }
 
-  .flex {
-    display: flex;
-  }
+  
 
   .images,
   .slides {
@@ -215,6 +227,9 @@ figcaption {
 @media (min-width: 769px) {
   /* Any adjustments for desktop and larger go here.
     Note these styles will be applied to anything 769px or larger -- so desktop */
+    .flex {
+      display: flex;
+    }
   }
 /*********************************************************************
   YOUR MEDIUM-DESKTOP-ONLY STYLES GO HERE

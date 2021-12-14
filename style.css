@@ -54,10 +54,6 @@ h3 {
   font-family: 'Assistant', sans-serif;
 }
 
-blockquote {
-  font-size: 18px;
-  text-align: center;
-}
 /** Caption styles */
 .caption,
 figcaption {
@@ -204,8 +200,6 @@ figcaption {
   .mobile {
     display: none;
   }
-
-  
 
   .images,
   .slides {
